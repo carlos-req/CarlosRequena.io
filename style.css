@@ -50,7 +50,8 @@ a{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.skills h2 {
+.titles {
+  text-transform: uppercase;
   font-size: 1.125rem;
   font-weight: 400;
 }
@@ -65,6 +66,19 @@ a{
 }
 .col-2 p{
   line-height: 1.8;
+}
+.project_name{
+font-size: 1.5rem;
+font-weight: 300;
+}
+.description{
+font-size:1rem;
+font-weight:200;
+}
+.technology{
+  font-size:.8rem;
+  font-weight: 200;
+  color: #6CACE4;
 }
 /* Header */
 .container_nav{
@@ -137,7 +151,6 @@ nav a:focus {
 .container_skills{
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   align-items: center;
 }
 .titles{
@@ -179,4 +192,14 @@ nav a:focus {
   background-color: rgba(255, 255, 255, 0.518);
 }
 /* Featured Projects */
+.projects{
+  margin-bottom: 2rem;
+}
+.project_feature img{
+  max-width: 100%;
+}
+.project_feature{
+  width:45%;
+}
+
 
