@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+  --text-color: #ffffff;
+}
+
+/* BASE */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:#111111;
+  color: var(--text-color);
+  font-family: var(--font-primary);
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1080px;
+  width: 90%;
+  margin:0 auto;
+}
+/* Font Styles */
+.container_nav{
+  font-weight: 300;
+}
+.hero p{
+  font-size: 1.125rem;
+  font-weight:200;
+}
+.hero h1{
+  font-family: var(--font-secondary);
+  font-size: 3rem;
+  background:-webkit-linear-gradient(360deg, rgba(152,69,232,1) 0%, rgba(51,210,255,1) 25%, rgba(221,87,137,1) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.skills h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.col-2_ul li{
+  font-size: 1rem;
+  font-weight: 300;
+  color:#111111;
+  background-color: #ffffff;
+}
+.col-2 h3{
+  margin: 1rem;
+}
+.col-2 p{
+  line-height: 1.8;
+}
+/* Header */
+.container_nav{
+  height: 3.5rem;
+  display:flex;
+}
+
+header{
+padding: 2em 0;
+}
+
+.logo{
+  cursor:pointer;
+  margin-right: auto;
+  color:white;
+  width:100px;
+
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav li{
+  margin: 0 1em;
+}
+nav a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color:white;
+}
+nav a:hover,
+nav a:focus {
+  color:darkgray;
+}
+
+/* Hero */
+.hero {
+  padding: 6rem 0;
+  display: flex;
+  align-items: center;
+}
+
+/* button */
+.button-11 {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-11:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+/*Skills & About */
+.container_skills{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.titles{
+  max-width: 1080px;
+  width: 90%;
+  margin: 2.5rem auto;
+}
+.col-1 {
+  width: 40%;
+  margin: 0 auto;
+}
+.col-1 img{
+  max-width: 80%;
+  border-radius: 35px;
+
+}
+.col-2{
+  width: 50%;
+  text-align: center;
+  justify-content: space-between;
+}
+.col-2_ul{
+  list-style: none;
+  display: flex;
+  margin: 2rem;
+  flex-wrap: wrap;
+
+}
+.col-2_ul li{
+  margin: 4px auto;
+  border-radius: 2px;
+  padding:3.5px;
+}
+
+/* White line */
+.white_line{
+  margin:6rem auto;
+  height:1px;
+  background-color: rgba(255, 255, 255, 0.518);
+}
+/* Featured Projects */
+
