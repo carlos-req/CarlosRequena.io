@@ -181,10 +181,17 @@ nav a:focus {
   max-width: 80%;
   border-radius: 35px;
 }
+
 .col-2{
   width: 50%;
   text-align: center;
   justify-content: space-between;
+}
+.col-2 a{
+  color:#C4C4C4;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-decoration: underline dotted #ffffff;
 }
 .col-2_ul{
   list-style: none;
