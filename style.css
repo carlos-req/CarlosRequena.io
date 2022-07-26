@@ -32,6 +32,14 @@ a{
   width: 90%;
   margin:0 auto;
 }
+.container_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1080px;
+  width: 90%;
+  margin:0 auto;
+}
 /* Font Styles */
 .container_nav{
   font-weight: 300;
@@ -39,6 +47,7 @@ a{
 .hero p{
   font-size: 1.125rem;
   font-weight:200;
+  color:#F0F0F0;
 }
 .hero h1{
   font-family: var(--font-secondary);
@@ -59,26 +68,34 @@ a{
   font-size: 1rem;
   font-weight: 300;
   color:#111111;
-  background-color: #ffffff;
+  background-color: #F0F0F0;
 }
 .col-2 h3{
   margin: 1rem;
+  text-transform: uppercase;
 }
 .col-2 p{
   line-height: 1.8;
+  color:#F0F0F0;
 }
 .project_name{
 font-size: 1.5rem;
 font-weight: 300;
 }
 .description{
-font-size:1rem;
+font-size:.9rem;
 font-weight:200;
+color:#C4C4C4;
 }
 .technology{
   font-size:.8rem;
   font-weight: 200;
   color: #6CACE4;
+}
+h5{
+  font-size: 1.125rem;
+  font-weight: 200;
+  color: #FFFFFF;
 }
 /* Header */
 .container_nav{
@@ -127,6 +144,7 @@ nav a:focus {
 /* button */
 .button-11 {
   margin: 1.5rem 0;
+  cursor:pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -148,11 +166,7 @@ nav a:focus {
 }
 
 /*Skills & About */
-.container_skills{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .titles{
   max-width: 1080px;
   width: 90%;
@@ -182,14 +196,14 @@ nav a:focus {
 .col-2_ul li{
   margin: 4px auto;
   border-radius: 2px;
-  padding:3.5px;
+  padding:3.5px 5px;
 }
 
 /* White line */
 .white_line{
   margin:6rem auto;
   height:1px;
-  background-color: rgba(255, 255, 255, 0.518);
+  background-color: #C6C6C6;
 }
 /* Featured Projects */
 .projects{
@@ -201,5 +215,63 @@ nav a:focus {
 .project_feature{
   width:45%;
 }
+.title_project{
+  display:flex;
+  margin: 20px 0px
+  12px 0px;
+}
+.project_icons{
+  margin-left: auto;
+}
+.github_link{
+  display: inline;
+  margin-left: .2rem;
+}
+.description{
+  margin-bottom: 12px;
+}
+
+/* Contact */
+footer{
+  padding:40px 0 60px 0;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.contact_card{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+.icons img{
+  display: inline;
+  margin-left: 35px;
+}
+.icons-2 img{
+  display: inline;
+  margin-left: 57px;
+}
+.icons-3 img{
+  display: inline;
+  margin-left: 55px;
+}
+.icons-4 img{
+  display: inline;
+  margin-left: 63px;
+}
+.links{
+  margin-left: 10px;
+}
+.btn{
+  display:flex;
+  align-items: center;
+  margin: 10px 10px;
+  width: 210px;
+  height: 49px;
+  border: 1px solid #C6C6C6;
+}
+
+
 
 
