@@ -71,10 +71,11 @@ a{
   background-color: #F0F0F0;
 }
 .col-2 h3{
-  margin: 1rem;
+  margin: 1.5rem 1rem 1rem 1rem;
   text-transform: uppercase;
 }
 .col-2 p{
+  margin-top: 8px;
   line-height: 1.8;
   color:#F0F0F0;
 }
@@ -179,7 +180,6 @@ nav a:focus {
 .col-1 img{
   max-width: 80%;
   border-radius: 35px;
-
 }
 .col-2{
   width: 50%;
@@ -201,6 +201,11 @@ nav a:focus {
 
 /* White line */
 .white_line{
+  margin:6rem auto;
+  height:1px;
+  background-color: #C6C6C6;
+}
+.last_whiteline{
   margin:6rem auto;
   height:1px;
   background-color: #C6C6C6;
@@ -244,6 +249,15 @@ footer{
   flex-wrap: wrap;
   margin: 0px auto;
 }
+.contact_card a{
+  color:#C4C4C4;
+}
+.contact_card a:hover{
+  color:#F0F0F0;
+}
+.contact_card a:visited{
+  color:#C4C4C4;
+}
 .icons img{
   display: inline;
   margin-left: 35px;
@@ -272,6 +286,48 @@ footer{
   border: 1px solid #C6C6C6;
 }
 
+@media  only screen and (max-width:800px) {
+  .container_content{
+    flex-direction: column;
+  }
+  .col-1{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .col-1 img{
+    width: 80%;
+    margin-left: 48px;
+    margin-bottom: 10px;
+  }
+  .col-2{
+    width:100%;
+  }
+  .col-2_ul {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .col-2_ul li{
+    margin: 5px auto;
+  }
+  .project_feature {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .project_images{
+    width: 100%;
+  }
+  .projects{
+    margin-bottom: 0px;
+  }
+  footer{
+    padding-top: 20px;
+  }
+  .last_whiteline{
+    margin: 3rem auto;
+  }
+
+  
+}
 
 
 
