@@ -66,7 +66,7 @@ a{
 }
 .col-2_ul li{
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   color:#111111;
   background-color: #F0F0F0;
 }
@@ -195,14 +195,15 @@ nav a:focus {
 .col-2_ul{
   list-style: none;
   display: flex;
-  margin: 2rem;
+  align-content: center;
+  justify-content: space-around;
+  margin: 2rem auto;
   flex-wrap: wrap;
 
 }
 .col-2_ul li{
-  margin: 4px auto;
-  border-radius: 2px;
-  padding:3.5px 5.5px;
+  margin: 4px 2px;
+  padding:4.5px 6.5px;
 }
 
 /* White line */
@@ -255,13 +256,13 @@ footer{
   flex-wrap: wrap;
   margin: 0px auto;
 }
-.contact_card a{
+.contact_card > a{
   color:#C4C4C4;
 }
-.contact_card a:hover{
+.contact_card > a:hover{
   color:#F0F0F0;
 }
-.contact_card a:visited{
+.contact_card > a:visited{
   color:#C4C4C4;
 }
 .icons img{
